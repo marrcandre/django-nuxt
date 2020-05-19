@@ -5,8 +5,11 @@ description = "A simple Django-Nuxt integration project"
 authors = ["Marco André Mendes <marcoandre@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.6"
+python = ">=3.6,<3.9"
 django = "^3.0.6"
+djangorestframework = "^3.11.0"
+djangorestframework-simplejwt = "^4.4.0"
+django-cors-headers = "^3.3.0"
 
 [tool.poetry.dev-dependencies]
 
