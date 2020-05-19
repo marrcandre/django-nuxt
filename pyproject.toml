@@ -6,6 +6,7 @@ authors = ["Marco André Mendes <marcoandre@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.6"
+django = "^3.0.6"
 
 [tool.poetry.dev-dependencies]
 
